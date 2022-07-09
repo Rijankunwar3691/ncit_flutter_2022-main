@@ -1,5 +1,6 @@
 import 'package:dayone/screen/dashboard.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -25,6 +26,7 @@ class _LoginPageState extends State<LoginPage> {
             padding: const EdgeInsets.only(top: 90.0, left: 8.0, right: 8.0),
             child: Column(
               children: [
+                Lottie.asset('assets/anim/loading3.json'),
                 TextFormField(
                   controller: userNameController,
                   keyboardType: TextInputType.name,

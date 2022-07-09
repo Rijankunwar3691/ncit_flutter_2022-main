@@ -147,7 +147,7 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Form(
                 key: _formKey,
                 child: Container(
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(20),
@@ -157,20 +157,20 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.start,
-                      children: [
-                        SizedBox(height: 25),
+                      children:  [
+                        const SizedBox(height: 25),
                         titleSection,
-                        SizedBox(height: 15),
+                        const SizedBox(height: 15),
                         secondTitle,
-                        SizedBox(height: 25),
+                        const SizedBox(height: 25),
                         nameSection,
-                        SizedBox(height: 10),
+                        const SizedBox(height: 10),
                         enterEmailSection,
-                        SizedBox(height: 10),
+                        const SizedBox(height: 10),
                         passwordSection,
-                        SizedBox(height: 10),
+                        const SizedBox(height: 10),
                         enterPasswordSection,
-                        SizedBox(height: 10),
+                        const SizedBox(height: 10),
                         forgotPassword,
                         SizedBox(height: 10),
                         loginButton,
